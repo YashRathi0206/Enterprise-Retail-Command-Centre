@@ -1,0 +1,20 @@
+# Ignore data files (they are too heavy for Docker context)
+data/
+logs/
+
+# Ignore Python environments
+venv/
+env/
+.venv/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore git
+.git/
+.gitignore
+
+# Ignore docker stuff to prevent loops
+docker-compose.yml
+Dockerfile
